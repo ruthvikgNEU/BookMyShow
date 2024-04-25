@@ -43,7 +43,7 @@ public class Login {
 		Main m = new Main();
 		
 		//IF the user is an employee the program transitions to the 'Employee Home.fxml' page
-		if(email.getText().toString().equals("3pointcinemas@gmail.com") && password.getText().toString().equals("123456")) {
+		if(email.getText().toString().equals("admin@amc.com") && password.getText().toString().equals("123456")) {
 			Main.setEmployeeMode(true);
 			m.changeScene("Employee Home.fxml");
 		}

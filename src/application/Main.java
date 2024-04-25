@@ -41,7 +41,7 @@ public class Main extends Application {
 		primaryStage.setResizable(false);
 		Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
 		Scene scene = new Scene(root);
-		primaryStage.setTitle("3Pointer Cinemas");
+		primaryStage.setTitle("AMC Theatres");
 		primaryStage.setScene(scene);
 		primaryStage.sizeToScene();
 		primaryStage.show();

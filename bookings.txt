@@ -1,6 +1,0 @@
-booked;Namitha;Jc;Aquaman;05/12/2023;22:00;C4;No;3Point2555
-booked;Namitha;Jc;Joker;05/12/2023;21:00;C4, B5, C5;No;3Point9646
-booked;Ruthvik;Garlapati;K.G.F;24/04/2024;21:00;C5, C6;No;3Point6982
-booked;Ruthvik;G;K.G.F;24/04/2024;15:00;A1, B1, C1;No;3Point8022
-booked;Ruthvik;G;SALAAR;24/04/2024;19:00;C5, B6, A6, A5, A3, A2, B2, C2, C3, B3, A4;No;3Point8022
-booked;Ruthvik;G;K.G.F;24/04/2024;15:00;A3, A4, A5;No;3Point2289
