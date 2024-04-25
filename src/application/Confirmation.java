@@ -43,7 +43,7 @@ public class Confirmation implements Initializable {
 	public static int min = 0;
     public static int max = 9999;
 	public static int id = (int)Math.floor(Math.random()*(max-min+1)+min);
-	public static String bookingId = "3Point"+Integer.toString(id);
+	public static String bookingId = "AMCMovies"+Integer.toString(id);
 	
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {

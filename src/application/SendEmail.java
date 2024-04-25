@@ -59,7 +59,7 @@ public class SendEmail { //Controller class which sends an email to the user
         		+ " Please, keep this email with the PDF receipt as proof of your booking.\n"
         		+ "\nLooking forward to seeing you on " + Confirmation.finalDate +", at "
         		+ Confirmation.finalTime + 
-        		"!\n\nEnjoy the film!\n\nThe Pointers\nCEO of 3Point Cinemas";
+        		"!\n\nEnjoy the film!\n\nThe Pointers\nCEO of AMC Theatres";
 
         try { //TRY-CATCH Block
         	//Creates a 'MimeBodyPart' and adds the message content to it
@@ -85,7 +85,7 @@ public class SendEmail { //Controller class which sends an email to the user
         	
             //Creates a new message setting the sender and reciever addresses
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("3pointcinemas@gmail.com"));
+            message.setFrom(new InternetAddress("ruthvikroczz@gmail.com"));
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(recipient));
             
             if (type.equals("confirmation")) { //IF the email is a "confirmation" email
@@ -124,14 +124,14 @@ public class SendEmail { //Controller class which sends an email to the user
         //Adds document details
         document.addTitle("Booking Confirmation PDF");
         document.addSubject("Receipt PDF");
-        document.addAuthor("The Pointers");
-        document.addCreator("3Point Cinemas");
+        document.addAuthor("Booking Admin");
+        document.addCreator("AMC Theatres");
          
         //Creates new paragraph and adds the content of the receipt to the paragraph
         Paragraph paragraph = new Paragraph();
         paragraph.add(new Chunk("Your Booking Receipt\n\n", title));
         paragraph.add(new Chunk("Booking ID: "+Confirmation.bookingId+"\n"+
-        						"Cinema: 3Point Cinemas"+"\n\n"+
+        						"Cinema: AMC Boston Common 19"+"\n\n"+
         						"Film: "+Main.getSelectedFilmTitle()+"\n"+
         						"Screen: "+TicketBooking.screenNum+"\n"+
         						"Date: "+Confirmation.finalDate+"\n"+

@@ -89,7 +89,7 @@ public class FilmPage implements Initializable {
 				
 				String path = "/Users/ruthvikg/Downloads/3PointCinemas/3PointCinemas/Images/filmImages/";
 //	            System.out.println(path + selectedFilm.getTitle() + ".png");
-				System.out.println(path+selectedFilm+".png");
+				//System.out.println(path+selectedFilm+".png");
 	        	imgFile = new File(path +selectedFilm+ ".png");
 	            Image img = SwingFXUtils.toFXImage(ImageIO.read(imgFile), null);
 	            selectedFilmPoster.setImage(img);

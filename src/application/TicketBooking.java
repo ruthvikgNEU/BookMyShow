@@ -131,7 +131,7 @@ public class TicketBooking {
 		screen.setText(screenNum);
 		
 		String path = "/Users/ruthvikg/Downloads/3PointCinemas/3PointCinemas/Images/filmImages/";
-        System.out.println(path + selectedFilm + ".png");
+       
     	imgFile = new File(path +selectedFilm+ ".png");
         Image img = SwingFXUtils.toFXImage(ImageIO.read(imgFile), null);
         selectedFilmPoster.setImage(img);
